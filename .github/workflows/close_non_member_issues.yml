@@ -1,0 +1,53 @@
+name: Close Non-Member Issues
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  close_non_member_issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Close issue if not created by organization member or collaborator
+        uses: actions/github-script@v6
+        with:
+          script: |
+            async function run() {
+              const issueAuthorAssociation = context.payload.issue.author_association;
+              const commentBody = '> [!WARNING]\n> **Auto-closed**: Repository is for member-created bounties only.';
+
+              if (issueAuthorAssociation !== 'OWNER' && issueAuthorAssociation !== 'MEMBER' && issueAuthorAssociation !== 'COLLABORATOR') {
+                const { data: comments } = await github.rest.issues.listComments({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                });
+
+                const botCommentExists = comments.some(comment => comment.body === commentBody);
+
+                if (!botCommentExists) {
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: context.issue.number,
+                    body: commentBody,
+                  });
+                }
+
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  state: 'closed',
+                  labels: ['closed by bot'],
+                });
+
+                console.log(`Issue #${context.issue.number} closed because the author is not an owner, member, or collaborator.`);
+              }
+            }
+
+            run();
+          github-token: ${{ secrets.GITHUB_TOKEN }}
