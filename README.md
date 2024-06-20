@@ -2,7 +2,9 @@
 
 Welcome to the Livepeer Software Bounties program! [Livepeer](https://livepeer.org/) is a decentralized community dedicated to building the world's open video infrastructure. We're excited to invite you to contribute and earn rewards for your efforts. Visit the [issues tab](https://github.com/livepeer/bounties/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee) to find community-requested tasks with rewards for completion. Several entities within the Livepeer ecosystem offer bounties, including:
 
-- The [AI SPE](https://explorer.livepeer.org/treasury/42084921863832634370966409987770520882792921083596034115019946998721416745190): A special purpose entity focused on AI jobs in the Livepeer network. Their bounties are labeled [AI](https://github.com/livepeer/bounties/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3AAI) and funded by the Livepeer [treasury](https://dune.com/dob/livepeer-treasury).
+- The [AI SPE](https://explorer.livepeer.org/treasury/42084921863832634370966409987770520882792921083596034115019946998721416745190): A special purpose entity focused on putting AI jobs on the Livepeer network. Their bounties are labeled [AI](https://github.com/livepeer/bounties/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3AAI) and funded by the Livepeer [treasury](https://dune.com/dob/livepeer-treasury).
+
+Only members of these entities can create issues in the issues tab. If you have ideas for bounties, questions about the program, or need assistance, please use the [Discussions Board](https://github.com/livepeer/bounties/discussions) or join the [#🛋│developer-lounge](https://discord.com/channels/423160867534929930/1051963444598943784) channel on our Discord server.
 
 > [!TIP]
 > In addition to these software bounties, the Livepeer ecosystem also offers grants for larger tasks and projects. You can find more information about the grants program [here](https://livepeer.org/grants). For security researchers, we also have a bug bounty program detailed [here](https://immunefi.com/bug-bounty/livepeer/).
@@ -41,5 +43,7 @@ Thank you for your interest in contributing to Livepeer! We appreciate your supp
    Absolutely! We're committed to providing all the necessary information and resources you need to successfully complete the task. If you need further assistance or have any questions, feel free to comment on the issue or reach out in the [#🛋│developer-lounge](https://discord.com/channels/423160867534929930/1051963444598943784) channel on our Discord server.
 - **What currency will I receive the bounty in?**\
    Bounties are paid in Livepeer's native token, LPT.
+- **I have a bounty idea. How can I propose it?**\
+   If you have an idea for a bounty, please share it in the `💡 ideas` category of the [Discussions Board](https://github.com/livepeer/bounties/discussions/new?category=ideas).
 
 </details>
