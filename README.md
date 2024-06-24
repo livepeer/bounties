@@ -22,6 +22,9 @@ If you're a beginner, contributing to the Livepeer documentation is a great way 
 
 ## Steps to Apply
 
+> [!WARNING]\
+> Please wait for the issue to be assigned to you before starting work. To prevent duplication of effort, submissions for unassigned issues will not be accepted.
+
 1. **Find an Open Bounty**: Browse the open issues labeled [bounty](https://github.com/livepeer/bounties/labels/bounty). Use this filter: [is:open is:issue no:assignee label:bounty](https://github.com/livepeer/bounties/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3Abounty).
 2. **Express Your Interest**: Comment on the issue to indicate your interest and explain why you're the ideal candidate for the task.
 3. **Wait for Review**: Our team will review expressions of interest and select the best candidate.
@@ -33,9 +36,6 @@ If you're a beginner, contributing to the Livepeer documentation is a great way 
 9. **Gain Recognition**: Your valuable contributions will be acknowledged by the entity that funded the bounty, such as mentioning your name in the changelog.
 
 Thank you for your enthusiasm in contributing to Livepeer! We appreciate your support and look forward to your contributions 💛.
-
-> [!WARNING]\
-> Please wait for the issue to be assigned to you before starting work. To prevent duplication of effort, submissions for unassigned issues will not be accepted.
 
 ## FAQ
 
