@@ -6,7 +6,8 @@ Welcome to the Livepeer Software Bounties program! [Livepeer](https://livepeer.o
 
 Please note that only members of these entities can create issues in the issues tab. If you have ideas for bounties, questions about the program, or need assistance, please use the [Discussions Board](https://github.com/livepeer/bounties/discussions) or join the [#🛋│developer-lounge](https://discord.com/channels/423160867534929930/1051963444598943784) channel on our Discord server.
 
-> **Tip:** In addition to software bounties, the Livepeer ecosystem offers grants for more substantial tasks and projects. You can find more information about the grants program [here](https://livepeer.org/grants). For security researchers, we also have a bug bounty program, which you can learn about [here](https://immunefi.com/bug-bounty/livepeer/).
+> [!TIP]
+> In addition to software bounties, the Livepeer ecosystem offers grants for more substantial tasks and projects. You can find more information about the grants program [here](https://livepeer.org/grants). For security researchers, we also have a bug bounty program, which you can learn about [here](https://immunefi.com/bug-bounty/livepeer/).
 
 ## Areas of Contribution
 
