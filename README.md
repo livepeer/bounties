@@ -1,10 +1,14 @@
 # Livepeer Bounties
 
-Welcome to the Livepeer Software Bounties program! [Livepeer](https://livepeer.org/) is a decentralized community dedicated to building the world’s open video infrastructure. We’re thrilled to invite you to contribute and earn rewards for your efforts. Explore the [issues tab](https://github.com/livepeer/bounties/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee) to discover community-requested tasks with rewards upon completion. Several entities within the Livepeer ecosystem offer bounties, including:
+Welcome to the Livepeer Software Bounties program! [Livepeer](https://livepeer.org/) is a decentralized community dedicated to building the world’s open video infrastructure. We’re thrilled to invite you to contribute and earn rewards for your efforts. 
+
+Explore the [open bounties](https://livepeer.notion.site/Livepeer-Bounty-Board-13b0a34856878041b9ddecaa1380b2e6) to discover community-requested tasks with rewards upon completion. The issues found in this repo mirror those created on the offical [Livepeer Bounty Board](https://livepeer.notion.site/Livepeer-Bounty-Board-13b0a34856878041b9ddecaa1380b2e6). Please apply there if interested in any of the bounties.
+
+Several entities within the Livepeer ecosystem offer bounties, including:
 
 - **[AI SPE](https://explorer.livepeer.org/treasury/42084921863832634370966409987770520882792921083596034115019946998721416745190)**: A special purpose entity focused on running AI jobs on the Livepeer network. Their bounties are labeled [AI](https://github.com/livepeer/bounties/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3AAI) and are funded by the Livepeer [treasury](https://dune.com/dob/livepeer-treasury).
 
-Please note that only members of these entities can create issues in the issues tab. If you have ideas for bounties, questions about the program, or need assistance, please use the [Discussions Board](https://github.com/livepeer/bounties/discussions) or join the [#🛋│developer-lounge](https://discord.com/channels/423160867534929930/1051963444598943784) channel on our Discord server.
+Please note that only members of these entities can create bounties. If you have ideas for bounties, questions about the program, or need assistance, please use the [Discussions Board](https://github.com/livepeer/bounties/discussions) or join the [#🛋│developer-lounge](https://discord.com/channels/423160867534929930/1051963444598943784) channel on our Discord server.
 
 > [!TIP]
 > In addition to software bounties, the Livepeer ecosystem offers grants for more substantial tasks and projects. You can find more information about the grants program [here](https://livepeer.org/grants). For security researchers, we also have a bug bounty program, which you can learn about [here](https://immunefi.com/bug-bounty/livepeer/).
@@ -26,15 +30,14 @@ If you’re new to contributing, starting with Livepeer documentation is a great
 > [!WARNING]
 > Please wait until the issue is officially assigned to you before starting work. To avoid duplication of effort, submissions for unassigned issues will not be accepted.
 
-1. **Find an Open Bounty**: Browse the open issues labeled [bounty](https://github.com/livepeer/bounties/labels/bounty) using this filter: [is:open is:issue no:assignee label:bounty](https://github.com/livepeer/bounties/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3Abounty).
-2. **Express Your Interest**: Comment on the issue to indicate your interest and briefly explain why you’re the right fit for the task.
-3. **Wait for Review**: Our team will review your expression of interest and select the best candidate.
-4. **Get Assigned**: If selected, the issue will be assigned to you on GitHub.
-5. **Start Working**: Begin working on your task. If you need assistance, you can comment on the issue or join the discussions in the [#🛋│developer-lounge](https://discord.com/channels/423160867534929930/1051963444598943784) channel on our Discord server.
-6. **Submit Your Work**: Create a pull request in the relevant repository and request a review.
-7. **Notify Us**: Comment on the GitHub issue when your pull request is ready for review.
-8. **Receive Your Bounty**: Once your pull request is approved, we’ll arrange the bounty payment.
-9. **Gain Recognition**: Your contributions will be acknowledged by the entity that funded the bounty, and your name may be mentioned in the changelog.
+1. **Express Your Interest:** Fill out [this form](https://www.notion.so/13f0a34856878045ba5be0218bc28d3f?pvs=21), making sure to specify the bounty you are interested in
+2. **Wait for Review:** Our team will review expressions of interest and select the best candidate.
+3. **Get Assigned:** If selected, we'll contact you and assign the bounty to you.
+4. **Start Working:** Dive into your task! If you need assistance or guidance, join the discussions in the `#developer-lounge` channel on our [Discord server](https://discord.gg/livepeer).
+5. **Submit Your Work:** Create a pull request in the relevant repository and request a review.
+6. **Notify Us:** Ping us on Discord when you’re pull request is ready for review.
+7. **Receive Your Bounty:** We'll arrange the bounty payment once your pull request is approved.
+8. **Gain Recognition:** Your valuable contributions will be showcased in our project's [changelog](https://livepeer-ai.productlane.com/changelog).
 
 Thank you for your enthusiasm in contributing to Livepeer! We truly appreciate your support and look forward to your contributions 💛.
 
