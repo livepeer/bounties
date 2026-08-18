@@ -33,7 +33,7 @@ If you’re new to contributing, starting with Livepeer documentation is a great
 1. **Express Your Interest:** Fill out [this form](https://www.notion.so/13f0a34856878045ba5be0218bc28d3f?pvs=21), making sure to specify the bounty you are interested in
 2. **Wait for Review:** Our team will review expressions of interest and select the best candidate.
 3. **Get Assigned:** If selected, we'll contact you and assign the bounty to you.
-4. **Start Working:** Dive into your task! If you need assistance or guidance, join the discussions in the `#developer-lounge` channel on our [Discord server](https://discord.gg/livepeer).
+4. **Start Working:** Dive into your task! If you need assistance or guidance, join the discussions in the `#developer-lounge` channel on our [Discord server](https://discord.gg/55SZFEEH5y).
 5. **Submit Your Work:** Create a pull request in the relevant repository and request a review.
 6. **Notify Us:** Ping us on Discord when you’re pull request is ready for review.
 7. **Receive Your Bounty:** We'll arrange the bounty payment once your pull request is approved.
